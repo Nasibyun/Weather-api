@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getWeatherByCity } = require('../services/weatherService');
+const { getWeatherByCity } = require('../services/weatherservice');
 
 // GET /api/weather?city=Delhi
 router.get('/', async (req, res) => {
